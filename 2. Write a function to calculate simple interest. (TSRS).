@@ -1,0 +1,17 @@
+#include<stdio.h>
+int SI(int,int,int);
+int main()
+{
+    int p,r,t,s;
+    printf("Enter a value ");
+    scanf("%d %d %d",&p,&r,&t);
+    s=SI(p,r,t);
+    printf("Simple interest is %d",s);
+    return 0;
+}
+int SI(int a,int b,int c)
+{
+    int X;
+    X=(a*b*c)/100;
+    return X;
+}
