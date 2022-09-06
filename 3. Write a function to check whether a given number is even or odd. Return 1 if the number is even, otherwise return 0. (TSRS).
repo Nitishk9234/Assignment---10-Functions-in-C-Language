@@ -1,0 +1,19 @@
+#include<stdio.h>
+int num(int);
+int main()
+{
+    int n,s;
+    printf("Enter the value of n is ");
+    scanf("%d",&n);
+    s=num(n);
+    printf("%d",s);
+    return 0;
+
+}
+int num(int n)
+{
+    if(n%2==0)
+        return 1;
+    else
+        return 0;
+}
